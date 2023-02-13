@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ubuntu",sans-serif;
+}
+
+body{
+    margin: 0rem;
+   
+}
+
+h1  {
+    width: 16.5rem;
+    height: 4.3rem;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4.3rem;
+    color: #FF4081;   
+}
+
+h2 {
+    width: 19.8rem;
+    height: 1rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+    color: #555;  
+}
+
+h4  {
+    width: 32rem;
+    height: 2.5rem;
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+}
+
+p  {
+    width: 45rem;
+    height:6.5rem;
+    color: #000000;
+    font-style: normal;
+    font-weight: 18.5rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+button  {
+    width: 14.5rem;
+    height: 3.1rem;
+    background-color: #2E948A;
+    border-radius: 3.9rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    text-align: center;
+    color: white;
+    border-color: #2E948A;
+    border: 0;
+}
+/* até aqui somente estilo de cores e tamanho de fonte */
+/* primeiro bloco*/
+.titulo {
+    display: flex;
+    flex-direction: column;
+    margin: 5.9rem;  
+}
+.containerDentro1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sectionPoupando {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+/*segundo bloco*/
+.containerDentro2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sectionInvestimento {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
+
+/*terceiro bloco*/
+.containerDentro3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sectionIndependencia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 11rem;
+}
+
+.linha {
+    border: 0;
+    height: 5px;
+    background-color: #C4C4C4;
+    margin: 4.3rem 6rem 6.9rem 6rem;
+}
+
+.linha2{
+    border: 0;
+    height: 5px;
+    background-color: #C4C4C4;
+    margin: 5.8rem 6rem 5.8rem 6rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+}
+/* rodapé começa aqui */
+footer{
+    width: 100%;
+    height: 12.9rem;
+    background-color: #419488;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    border: solid 2px;
+    border-radius: 3.3rem;
+    justify-content: center;
+    padding: 1rem 3rem 1rem 3rem;
+    margin-right: 8.4rem;
+}
+
+.logo{
+    margin-left: 7.9rem;
+}
+
+.lista{
+    margin: 1.3rem 11rem 0rem 0rem;
+    color: white;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+/*cabeçalho e itens abaixo*/
+header{
+    background-color: #2E948A;
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 6.4rem 0rem 5.1rem;
+    align-items: center;
+}
+
+.logoHeader{
+    width: 10rem;
+}
+
+.containerLogoHeader{
+    padding: 2rem 0 1.2rem 0;
+}
+
+.nav{
+    display: flex;
+    color: white;
+}
+
+.navItens{
+    padding: 1rem;
+    width: 5rem;
+    height: 1.4rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
