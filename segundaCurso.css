@@ -6,9 +6,9 @@
 }
 
 body{
-    margin: 0rem;  
+    margin: 0rem; 
 }
-
+/*cabeçalho e rodape abaixo*/
 footer{
     width: 100%;
     height: 12.9rem;
@@ -18,6 +18,19 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     padding: 2rem;
+}
+
+.link1{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    border: solid 2px;
+    border-radius: 3.3rem;
+    justify-content: center;
+    padding: 1rem 3rem 1rem 3rem;
+    margin-right: 8.4rem;
 }
 
 .links{
@@ -49,11 +62,13 @@ footer{
 }
 /*cabeçalho e itens abaixo*/
 header{
+    width: 100%;
     background-color: #2E948A;
     display: flex;
     justify-content: space-between;
     padding: 0rem 6.4rem 0rem 5.1rem;
     align-items: center;
+    margin: 0 auto;
 }
 
 .logoHeader{
@@ -78,4 +93,111 @@ header{
     line-height: 1.3rem;
     display: flex;
     justify-content: space-evenly;
+}
+/*body e demais itens abaixo*/
+#investirTitulo{
+    color: #ff4081;
+    width: 32rem;
+    height:7.8rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.1rem;
+    line-height: 4rem;
+}
+
+p{
+    width: 28.1rem;
+    height: 11.6rem;
+    font-weight: 18.4rem;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    display: flex;
+    align-items: center;
+    }
+
+    .titulocontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 5.8rem 2rem 0rem 12.6rem;
+        padding: 0;
+    }
+    
+    .imagemTopo{
+        margin: 5rem 5.5rem 0rem 0rem;
+        padding: 0;
+    }
+
+    .containerTitulo{
+        width: 90rem;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 5.1rem;
+    }
+
+    article{
+        background-color: #F7F7F7;
+        height:77rem;
+    }
+
+    .linhadivisoria{
+        height: 3px;
+        background-color: #c4c4c4;
+        border: 0;
+        margin: 0rem 6rem 0rem 6rem;
+    }
+
+    .mussumAulas{
+        width:30rem;
+        height:12rem;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+        display: flex;
+        align-items: center;
+        color: #000000;
+    }    
+
+    .aula{
+        width: 6.6rem;
+        height: 2.5rem;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.1rem;
+        line-height: 2.3rem;
+        color: #FF4081;
+    }
+
+    .bloco1{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .bloco2{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .bloco3{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    article{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .kilua{
+        width: 25rem;
+        height: 16rem;
+    }
+/*responsividade*/
+
+@media screen and (max-width: 1200px) {
+    .containerTitulo{
+        justify-content: flex-start;
+    }
 }

@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ubuntu",sans-serif;
+}
+
+body{
+    margin: 0rem;
+   
+
+}
+
+h1{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 31.25rem;
+    font-size: 3.125rem;
+    line-height: 3.563rem;
+    text-align: center;
+    color: #FF4081;
+    margin-top: 6.938rem;
+
+}
+
+h3{
+    font-family: Ubuntu;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.875rem;
+    letter-spacing: 0rem;
+    text-align: left;
+    color:#419488;
+    width: 64.5rem;
+    
+}
+
+h4{
+ font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    width: 64.5rem;
+    
+}
+
+#data{
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #9D9D9D;
+margin-top: 0.50rem;
+
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:4.625rem;
+}
+
+.retangulopost{
+    background-color: #C4C4C4;
+    height: 29.063rem;
+    width: 64.5rem;
+    margin-bottom: 4rem;
+}
+
+.container2{
+    background-color: #F6F6F6;
+    padding-bottom: 6.281rem;
+    
+
+}
+
+.container2-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 8rem;
+    margin-right: 8rem;
+  
+}
+
+h2{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 31.25rem;
+    font-size: 3.125rem;
+    line-height: 3.563rem;
+    text-align: center;
+    color: #FF4081;
+    margin-top: 11.875rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6.313rem;
+    width: 21.5rem;
+    align-items: center;
+
+}
+
+.card-imagens{
+    height: 17.475rem;
+    margin-bottom: 3.103rem;
+
+}
+
+h5{
+    color: #FF4081;
+    font-weight: 43.75rem;
+    font-size: 1.563rem;
+    margin-bottom: 3.103rem;
+}
+
+p{
+    font-family: Ubuntu;
+font-size: 1.063rem;
+font-weight: 18.75rem;
+line-height: 1.25rem;
+letter-spacing: 0rem;
+text-align: center;
+
+}
+
+.button{
+    color: white;
+    background-color: #FF4081;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    border: solid 2px;
+    border-radius: 3.3rem;
+    justify-content: center;
+    padding: 1rem 3rem 1rem 3rem;
+    margin-right: 8.4rem;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: 12.938rem;
+    background-color: #419488;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    border: solid 2px;
+    border-radius: 3.3rem;
+    justify-content: center;
+    padding: 1rem 3rem 1rem 3rem;
+    margin-right: 8.4rem;
+}
+
+.logo{
+    margin-left: 7.9rem;
+}
+
+.lista{
+    margin: 1.3rem 11rem 0rem 0rem;
+    color: white;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+/*cabeçalho e itens abaixo*/
+header{
+    background-color: #2E948A;
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 6.4rem 0rem 5.1rem;
+    align-items: center;
+}
+
+.logoHeader{
+    width: 10rem;
+}
+
+.containerLogoHeader{
+    padding: 2rem 0 1.2rem 0;
+}
+
+.nav{
+    display: flex;
+    color: white;
+}
+
+.navItens{
+    padding: 1rem;
+    width: 5rem;
+    height: 1.4rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
